@@ -1,0 +1,3087 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 900px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart6b4c2da4a85' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart6b4c2da4a85()
+    });
+    function drawchart6b4c2da4a85(){  
+      var opts = {
+ "dom": "chart6b4c2da4a85",
+"width":    900,
+"height":    400,
+"x": "Date",
+"y": "TotalNumberofRigs",
+"type": "scatterChart",
+"id": "chart6b4c2da4a85" 
+},
+        data = [
+ {
+ "Date":           6421,
+"TotalNumberofRigs":           1003,
+"Onshore":            894,
+"Offshore":            109,
+"CrudeOil":            626,
+"NaturalGas":            352,
+"Year":           1987 
+},
+{
+ "Date":           6452,
+"TotalNumberofRigs":           1101,
+"Onshore":            987,
+"Offshore":            114,
+"CrudeOil":            713,
+"NaturalGas":            364,
+"Year":           1987 
+},
+{
+ "Date":           6482,
+"TotalNumberofRigs":           1124,
+"Onshore":           1008,
+"Offshore":            116,
+"CrudeOil":            727,
+"NaturalGas":            377,
+"Year":           1987 
+},
+{
+ "Date":           6513,
+"TotalNumberofRigs":           1152,
+"Onshore":           1034,
+"Offshore":            118,
+"CrudeOil":            746,
+"NaturalGas":            386,
+"Year":           1987 
+},
+{
+ "Date":           6543,
+"TotalNumberofRigs":           1162,
+"Onshore":           1034,
+"Offshore":            128,
+"CrudeOil":            746,
+"NaturalGas":            403,
+"Year":           1987 
+},
+{
+ "Date":           6574,
+"TotalNumberofRigs":           1076,
+"Onshore":            949,
+"Offshore":            127,
+"CrudeOil":            663,
+"NaturalGas":            391,
+"Year":           1988 
+},
+{
+ "Date":           6605,
+"TotalNumberofRigs":            976,
+"Onshore":            853,
+"Offshore":            123,
+"CrudeOil":            575,
+"NaturalGas":            375,
+"Year":           1988 
+},
+{
+ "Date":           6634,
+"TotalNumberofRigs":            951,
+"Onshore":            832,
+"Offshore":            119,
+"CrudeOil":            582,
+"NaturalGas":            338,
+"Year":           1988 
+},
+{
+ "Date":           6665,
+"TotalNumberofRigs":            917,
+"Onshore":            800,
+"Offshore":            117,
+"CrudeOil":            567,
+"NaturalGas":            316,
+"Year":           1988 
+},
+{
+ "Date":           6695,
+"TotalNumberofRigs":            891,
+"Onshore":            768,
+"Offshore":            123,
+"CrudeOil":            562,
+"NaturalGas":            300,
+"Year":           1988 
+},
+{
+ "Date":           6726,
+"TotalNumberofRigs":            897,
+"Onshore":            773,
+"Offshore":            124,
+"CrudeOil":            554,
+"NaturalGas":            309,
+"Year":           1988 
+},
+{
+ "Date":           6756,
+"TotalNumberofRigs":            912,
+"Onshore":            786,
+"Offshore":            126,
+"CrudeOil":            568,
+"NaturalGas":            309,
+"Year":           1988 
+},
+{
+ "Date":           6787,
+"TotalNumberofRigs":            930,
+"Onshore":            807,
+"Offshore":            123,
+"CrudeOil":            565,
+"NaturalGas":            335,
+"Year":           1988 
+},
+{
+ "Date":           6818,
+"TotalNumberofRigs":            927,
+"Onshore":            805,
+"Offshore":            122,
+"CrudeOil":            512,
+"NaturalGas":            390,
+"Year":           1988 
+},
+{
+ "Date":           6848,
+"TotalNumberofRigs":            923,
+"Onshore":            801,
+"Offshore":            122,
+"CrudeOil":            518,
+"NaturalGas":            377,
+"Year":           1988 
+},
+{
+ "Date":           6879,
+"TotalNumberofRigs":            918,
+"Onshore":            789,
+"Offshore":            129,
+"CrudeOil":            490,
+"NaturalGas":            406,
+"Year":           1988 
+},
+{
+ "Date":           6909,
+"TotalNumberofRigs":            924,
+"Onshore":            797,
+"Offshore":            127,
+"CrudeOil":            507,
+"NaturalGas":            397,
+"Year":           1988 
+},
+{
+ "Date":           6940,
+"TotalNumberofRigs":            841,
+"Onshore":            731,
+"Offshore":            110,
+"CrudeOil":            455,
+"NaturalGas":            364,
+"Year":           1989 
+},
+{
+ "Date":           6971,
+"TotalNumberofRigs":            762,
+"Onshore":            667,
+"Offshore":             95,
+"CrudeOil":            392,
+"NaturalGas":            347,
+"Year":           1989 
+},
+{
+ "Date":           6999,
+"TotalNumberofRigs":            753,
+"Onshore":            660,
+"Offshore":             93,
+"CrudeOil":            407,
+"NaturalGas":            325,
+"Year":           1989 
+},
+{
+ "Date":           7030,
+"TotalNumberofRigs":            771,
+"Onshore":            679,
+"Offshore":             92,
+"CrudeOil":            427,
+"NaturalGas":            322,
+"Year":           1989 
+},
+{
+ "Date":           7060,
+"TotalNumberofRigs":            754,
+"Onshore":            662,
+"Offshore":             92,
+"CrudeOil":            431,
+"NaturalGas":            311,
+"Year":           1989 
+},
+{
+ "Date":           7091,
+"TotalNumberofRigs":            795,
+"Onshore":            692,
+"Offshore":            103,
+"CrudeOil":            423,
+"NaturalGas":            357,
+"Year":           1989 
+},
+{
+ "Date":           7121,
+"TotalNumberofRigs":            832,
+"Onshore":            718,
+"Offshore":            114,
+"CrudeOil":            432,
+"NaturalGas":            386,
+"Year":           1989 
+},
+{
+ "Date":           7152,
+"TotalNumberofRigs":            886,
+"Onshore":            772,
+"Offshore":            114,
+"CrudeOil":            437,
+"NaturalGas":            438,
+"Year":           1989 
+},
+{
+ "Date":           7183,
+"TotalNumberofRigs":            955,
+"Onshore":            848,
+"Offshore":            107,
+"CrudeOil":            460,
+"NaturalGas":            484,
+"Year":           1989 
+},
+{
+ "Date":           7213,
+"TotalNumberofRigs":            984,
+"Onshore":            878,
+"Offshore":            106,
+"CrudeOil":            493,
+"NaturalGas":            482,
+"Year":           1989 
+},
+{
+ "Date":           7244,
+"TotalNumberofRigs":           1041,
+"Onshore":            922,
+"Offshore":            119,
+"CrudeOil":            532,
+"NaturalGas":            498,
+"Year":           1989 
+},
+{
+ "Date":           7274,
+"TotalNumberofRigs":           1065,
+"Onshore":            948,
+"Offshore":            117,
+"CrudeOil":            541,
+"NaturalGas":            517,
+"Year":           1989 
+},
+{
+ "Date":           7305,
+"TotalNumberofRigs":            998,
+"Onshore":            885,
+"Offshore":            113,
+"CrudeOil":            514,
+"NaturalGas":            477,
+"Year":           1990 
+},
+{
+ "Date":           7336,
+"TotalNumberofRigs":            911,
+"Onshore":            806,
+"Offshore":            105,
+"CrudeOil":            492,
+"NaturalGas":            412,
+"Year":           1990 
+},
+{
+ "Date":           7364,
+"TotalNumberofRigs":            905,
+"Onshore":            797,
+"Offshore":            108,
+"CrudeOil":            478,
+"NaturalGas":            421,
+"Year":           1990 
+},
+{
+ "Date":           7395,
+"TotalNumberofRigs":            935,
+"Onshore":            824,
+"Offshore":            111,
+"CrudeOil":            484,
+"NaturalGas":            447,
+"Year":           1990 
+},
+{
+ "Date":           7425,
+"TotalNumberofRigs":            961,
+"Onshore":            841,
+"Offshore":            120,
+"CrudeOil":            493,
+"NaturalGas":            465,
+"Year":           1990 
+},
+{
+ "Date":           7456,
+"TotalNumberofRigs":            999,
+"Onshore":            886,
+"Offshore":            113,
+"CrudeOil":            498,
+"NaturalGas":            495,
+"Year":           1990 
+},
+{
+ "Date":           7486,
+"TotalNumberofRigs":           1010,
+"Onshore":            902,
+"Offshore":            108,
+"CrudeOil":            497,
+"NaturalGas":            496,
+"Year":           1990 
+},
+{
+ "Date":           7517,
+"TotalNumberofRigs":            987,
+"Onshore":            879,
+"Offshore":            108,
+"CrudeOil":            506,
+"NaturalGas":            466,
+"Year":           1990 
+},
+{
+ "Date":           7548,
+"TotalNumberofRigs":           1042,
+"Onshore":            935,
+"Offshore":            107,
+"CrudeOil":            566,
+"NaturalGas":            460,
+"Year":           1990 
+},
+{
+ "Date":           7578,
+"TotalNumberofRigs":           1073,
+"Onshore":            974,
+"Offshore":             99,
+"CrudeOil":            588,
+"NaturalGas":            469,
+"Year":           1990 
+},
+{
+ "Date":           7609,
+"TotalNumberofRigs":           1137,
+"Onshore":           1031,
+"Offshore":            106,
+"CrudeOil":            615,
+"NaturalGas":            495,
+"Year":           1990 
+},
+{
+ "Date":           7639,
+"TotalNumberofRigs":           1136,
+"Onshore":           1035,
+"Offshore":            101,
+"CrudeOil":            643,
+"NaturalGas":            460,
+"Year":           1990 
+},
+{
+ "Date":           7670,
+"TotalNumberofRigs":           1068,
+"Onshore":            977,
+"Offshore":             91,
+"CrudeOil":            633,
+"NaturalGas":            413,
+"Year":           1991 
+},
+{
+ "Date":           7701,
+"TotalNumberofRigs":            984,
+"Onshore":            896,
+"Offshore":             88,
+"CrudeOil":            564,
+"NaturalGas":            405,
+"Year":           1991 
+},
+{
+ "Date":           7729,
+"TotalNumberofRigs":            929,
+"Onshore":            848,
+"Offshore":             81,
+"CrudeOil":            520,
+"NaturalGas":            389,
+"Year":           1991 
+},
+{
+ "Date":           7760,
+"TotalNumberofRigs":            865,
+"Onshore":            770,
+"Offshore":             95,
+"CrudeOil":            469,
+"NaturalGas":            374,
+"Year":           1991 
+},
+{
+ "Date":           7790,
+"TotalNumberofRigs":            819,
+"Onshore":            721,
+"Offshore":             98,
+"CrudeOil":            430,
+"NaturalGas":            354,
+"Year":           1991 
+},
+{
+ "Date":           7821,
+"TotalNumberofRigs":            867,
+"Onshore":            774,
+"Offshore":             93,
+"CrudeOil":            483,
+"NaturalGas":            342,
+"Year":           1991 
+},
+{
+ "Date":           7851,
+"TotalNumberofRigs":            844,
+"Onshore":            764,
+"Offshore":             80,
+"CrudeOil":            472,
+"NaturalGas":            332,
+"Year":           1991 
+},
+{
+ "Date":           7882,
+"TotalNumberofRigs":            803,
+"Onshore":            735,
+"Offshore":             68,
+"CrudeOil":            451,
+"NaturalGas":            326,
+"Year":           1991 
+},
+{
+ "Date":           7913,
+"TotalNumberofRigs":            775,
+"Onshore":            704,
+"Offshore":             71,
+"CrudeOil":            433,
+"NaturalGas":            314,
+"Year":           1991 
+},
+{
+ "Date":           7943,
+"TotalNumberofRigs":            795,
+"Onshore":            727,
+"Offshore":             68,
+"CrudeOil":            433,
+"NaturalGas":            330,
+"Year":           1991 
+},
+{
+ "Date":           7974,
+"TotalNumberofRigs":            808,
+"Onshore":            736,
+"Offshore":             72,
+"CrudeOil":            457,
+"NaturalGas":            328,
+"Year":           1991 
+},
+{
+ "Date":           8004,
+"TotalNumberofRigs":            796,
+"Onshore":            731,
+"Offshore":             65,
+"CrudeOil":            469,
+"NaturalGas":            308,
+"Year":           1991 
+},
+{
+ "Date":           8035,
+"TotalNumberofRigs":            710,
+"Onshore":            654,
+"Offshore":             56,
+"CrudeOil":            400,
+"NaturalGas":            294,
+"Year":           1992 
+},
+{
+ "Date":           8066,
+"TotalNumberofRigs":            669,
+"Onshore":            618,
+"Offshore":             51,
+"CrudeOil":            378,
+"NaturalGas":            277,
+"Year":           1992 
+},
+{
+ "Date":           8095,
+"TotalNumberofRigs":            648,
+"Onshore":            594,
+"Offshore":             54,
+"CrudeOil":            381,
+"NaturalGas":            250,
+"Year":           1992 
+},
+{
+ "Date":           8126,
+"TotalNumberofRigs":            642,
+"Onshore":            587,
+"Offshore":             55,
+"CrudeOil":            370,
+"NaturalGas":            251,
+"Year":           1992 
+},
+{
+ "Date":           8156,
+"TotalNumberofRigs":            638,
+"Onshore":            591,
+"Offshore":             47,
+"CrudeOil":            358,
+"NaturalGas":            260,
+"Year":           1992 
+},
+{
+ "Date":           8187,
+"TotalNumberofRigs":            621,
+"Onshore":            577,
+"Offshore":             44,
+"CrudeOil":            343,
+"NaturalGas":            260,
+"Year":           1992 
+},
+{
+ "Date":           8217,
+"TotalNumberofRigs":            676,
+"Onshore":            628,
+"Offshore":             48,
+"CrudeOil":            349,
+"NaturalGas":            310,
+"Year":           1992 
+},
+{
+ "Date":           8248,
+"TotalNumberofRigs":            686,
+"Onshore":            635,
+"Offshore":             51,
+"CrudeOil":            334,
+"NaturalGas":            331,
+"Year":           1992 
+},
+{
+ "Date":           8279,
+"TotalNumberofRigs":            717,
+"Onshore":            672,
+"Offshore":             45,
+"CrudeOil":            345,
+"NaturalGas":            356,
+"Year":           1992 
+},
+{
+ "Date":           8309,
+"TotalNumberofRigs":            803,
+"Onshore":            750,
+"Offshore":             53,
+"CrudeOil":            392,
+"NaturalGas":            399,
+"Year":           1992 
+},
+{
+ "Date":           8340,
+"TotalNumberofRigs":            882,
+"Onshore":            822,
+"Offshore":             60,
+"CrudeOil":            418,
+"NaturalGas":            451,
+"Year":           1992 
+},
+{
+ "Date":           8370,
+"TotalNumberofRigs":            926,
+"Onshore":            867,
+"Offshore":             59,
+"CrudeOil":            397,
+"NaturalGas":            509,
+"Year":           1992 
+},
+{
+ "Date":           8401,
+"TotalNumberofRigs":            824,
+"Onshore":            752,
+"Offshore":             72,
+"CrudeOil":            335,
+"NaturalGas":            454,
+"Year":           1993 
+},
+{
+ "Date":           8432,
+"TotalNumberofRigs":            684,
+"Onshore":            615,
+"Offshore":             69,
+"CrudeOil":            311,
+"NaturalGas":            334,
+"Year":           1993 
+},
+{
+ "Date":           8460,
+"TotalNumberofRigs":            611,
+"Onshore":            549,
+"Offshore":             62,
+"CrudeOil":            315,
+"NaturalGas":            268,
+"Year":           1993 
+},
+{
+ "Date":           8491,
+"TotalNumberofRigs":            612,
+"Onshore":            543,
+"Offshore":             69,
+"CrudeOil":            320,
+"NaturalGas":            270,
+"Year":           1993 
+},
+{
+ "Date":           8521,
+"TotalNumberofRigs":            637,
+"Onshore":            564,
+"Offshore":             73,
+"CrudeOil":            323,
+"NaturalGas":            294,
+"Year":           1993 
+},
+{
+ "Date":           8552,
+"TotalNumberofRigs":            695,
+"Onshore":            612,
+"Offshore":             83,
+"CrudeOil":            350,
+"NaturalGas":            327,
+"Year":           1993 
+},
+{
+ "Date":           8582,
+"TotalNumberofRigs":            741,
+"Onshore":            656,
+"Offshore":             85,
+"CrudeOil":            368,
+"NaturalGas":            360,
+"Year":           1993 
+},
+{
+ "Date":           8613,
+"TotalNumberofRigs":            797,
+"Onshore":            710,
+"Offshore":             87,
+"CrudeOil":            397,
+"NaturalGas":            390,
+"Year":           1993 
+},
+{
+ "Date":           8644,
+"TotalNumberofRigs":            848,
+"Onshore":            759,
+"Offshore":             89,
+"CrudeOil":            418,
+"NaturalGas":            421,
+"Year":           1993 
+},
+{
+ "Date":           8674,
+"TotalNumberofRigs":            860,
+"Onshore":            767,
+"Offshore":             93,
+"CrudeOil":            441,
+"NaturalGas":            411,
+"Year":           1993 
+},
+{
+ "Date":           8705,
+"TotalNumberofRigs":            868,
+"Onshore":            769,
+"Offshore":             99,
+"CrudeOil":            453,
+"NaturalGas":            408,
+"Year":           1993 
+},
+{
+ "Date":           8735,
+"TotalNumberofRigs":            857,
+"Onshore":            754,
+"Offshore":            103,
+"CrudeOil":            425,
+"NaturalGas":            426,
+"Year":           1993 
+},
+{
+ "Date":           8766,
+"TotalNumberofRigs":            789,
+"Onshore":            690,
+"Offshore":             99,
+"CrudeOil":            356,
+"NaturalGas":            425,
+"Year":           1994 
+},
+{
+ "Date":           8797,
+"TotalNumberofRigs":            754,
+"Onshore":            659,
+"Offshore":             95,
+"CrudeOil":            337,
+"NaturalGas":            405,
+"Year":           1994 
+},
+{
+ "Date":           8825,
+"TotalNumberofRigs":            735,
+"Onshore":            636,
+"Offshore":             99,
+"CrudeOil":            323,
+"NaturalGas":            403,
+"Year":           1994 
+},
+{
+ "Date":           8856,
+"TotalNumberofRigs":            723,
+"Onshore":            617,
+"Offshore":            106,
+"CrudeOil":            314,
+"NaturalGas":            398,
+"Year":           1994 
+},
+{
+ "Date":           8886,
+"TotalNumberofRigs":            716,
+"Onshore":            612,
+"Offshore":            104,
+"CrudeOil":            320,
+"NaturalGas":            382,
+"Year":           1994 
+},
+{
+ "Date":           8917,
+"TotalNumberofRigs":            756,
+"Onshore":            643,
+"Offshore":            113,
+"CrudeOil":            331,
+"NaturalGas":            408,
+"Year":           1994 
+},
+{
+ "Date":           8947,
+"TotalNumberofRigs":            771,
+"Onshore":            664,
+"Offshore":            107,
+"CrudeOil":            341,
+"NaturalGas":            415,
+"Year":           1994 
+},
+{
+ "Date":           8978,
+"TotalNumberofRigs":            766,
+"Onshore":            671,
+"Offshore":             95,
+"CrudeOil":            320,
+"NaturalGas":            433,
+"Year":           1994 
+},
+{
+ "Date":           9009,
+"TotalNumberofRigs":            809,
+"Onshore":            712,
+"Offshore":             97,
+"CrudeOil":            325,
+"NaturalGas":            471,
+"Year":           1994 
+},
+{
+ "Date":           9039,
+"TotalNumberofRigs":            822,
+"Onshore":            723,
+"Offshore":             99,
+"CrudeOil":            342,
+"NaturalGas":            467,
+"Year":           1994 
+},
+{
+ "Date":           9070,
+"TotalNumberofRigs":            835,
+"Onshore":            729,
+"Offshore":            106,
+"CrudeOil":            361,
+"NaturalGas":            460,
+"Year":           1994 
+},
+{
+ "Date":           9100,
+"TotalNumberofRigs":            816,
+"Onshore":            709,
+"Offshore":            107,
+"CrudeOil":            354,
+"NaturalGas":            447,
+"Year":           1994 
+},
+{
+ "Date":           9131,
+"TotalNumberofRigs":            748,
+"Onshore":            642,
+"Offshore":            106,
+"CrudeOil":            325,
+"NaturalGas":            411,
+"Year":           1995 
+},
+{
+ "Date":           9162,
+"TotalNumberofRigs":            713,
+"Onshore":            613,
+"Offshore":            100,
+"CrudeOil":            326,
+"NaturalGas":            375,
+"Year":           1995 
+},
+{
+ "Date":           9190,
+"TotalNumberofRigs":            665,
+"Onshore":            575,
+"Offshore":             90,
+"CrudeOil":            322,
+"NaturalGas":            331,
+"Year":           1995 
+},
+{
+ "Date":           9221,
+"TotalNumberofRigs":            678,
+"Onshore":            587,
+"Offshore":             91,
+"CrudeOil":            328,
+"NaturalGas":            336,
+"Year":           1995 
+},
+{
+ "Date":           9251,
+"TotalNumberofRigs":            679,
+"Onshore":            579,
+"Offshore":            100,
+"CrudeOil":            325,
+"NaturalGas":            335,
+"Year":           1995 
+},
+{
+ "Date":           9282,
+"TotalNumberofRigs":            674,
+"Onshore":            578,
+"Offshore":             96,
+"CrudeOil":            301,
+"NaturalGas":            352,
+"Year":           1995 
+},
+{
+ "Date":           9312,
+"TotalNumberofRigs":            723,
+"Onshore":            619,
+"Offshore":            104,
+"CrudeOil":            301,
+"NaturalGas":            399,
+"Year":           1995 
+},
+{
+ "Date":           9343,
+"TotalNumberofRigs":            745,
+"Onshore":            642,
+"Offshore":            103,
+"CrudeOil":            327,
+"NaturalGas":            399,
+"Year":           1995 
+},
+{
+ "Date":           9374,
+"TotalNumberofRigs":            765,
+"Onshore":            662,
+"Offshore":            103,
+"CrudeOil":            333,
+"NaturalGas":            413,
+"Year":           1995 
+},
+{
+ "Date":           9404,
+"TotalNumberofRigs":            761,
+"Onshore":            656,
+"Offshore":            105,
+"CrudeOil":            332,
+"NaturalGas":            414,
+"Year":           1995 
+},
+{
+ "Date":           9435,
+"TotalNumberofRigs":            772,
+"Onshore":            668,
+"Offshore":            104,
+"CrudeOil":            330,
+"NaturalGas":            430,
+"Year":           1995 
+},
+{
+ "Date":           9465,
+"TotalNumberofRigs":            763,
+"Onshore":            654,
+"Offshore":            109,
+"CrudeOil":            325,
+"NaturalGas":            427,
+"Year":           1995 
+},
+{
+ "Date":           9496,
+"TotalNumberofRigs":            709,
+"Onshore":            598,
+"Offshore":            111,
+"CrudeOil":            295,
+"NaturalGas":            406,
+"Year":           1996 
+},
+{
+ "Date":           9527,
+"TotalNumberofRigs":            700,
+"Onshore":            598,
+"Offshore":            102,
+"CrudeOil":            283,
+"NaturalGas":            411,
+"Year":           1996 
+},
+{
+ "Date":           9556,
+"TotalNumberofRigs":            714,
+"Onshore":            618,
+"Offshore":             96,
+"CrudeOil":            286,
+"NaturalGas":            421,
+"Year":           1996 
+},
+{
+ "Date":           9587,
+"TotalNumberofRigs":            741,
+"Onshore":            628,
+"Offshore":            113,
+"CrudeOil":            286,
+"NaturalGas":            446,
+"Year":           1996 
+},
+{
+ "Date":           9617,
+"TotalNumberofRigs":            764,
+"Onshore":            648,
+"Offshore":            116,
+"CrudeOil":            288,
+"NaturalGas":            467,
+"Year":           1996 
+},
+{
+ "Date":           9648,
+"TotalNumberofRigs":            774,
+"Onshore":            662,
+"Offshore":            112,
+"CrudeOil":            298,
+"NaturalGas":            471,
+"Year":           1996 
+},
+{
+ "Date":           9678,
+"TotalNumberofRigs":            784,
+"Onshore":            677,
+"Offshore":            107,
+"CrudeOil":            290,
+"NaturalGas":            488,
+"Year":           1996 
+},
+{
+ "Date":           9709,
+"TotalNumberofRigs":            811,
+"Onshore":            703,
+"Offshore":            108,
+"CrudeOil":            297,
+"NaturalGas":            488,
+"Year":           1996 
+},
+{
+ "Date":           9740,
+"TotalNumberofRigs":            811,
+"Onshore":            702,
+"Offshore":            109,
+"CrudeOil":            301,
+"NaturalGas":            505,
+"Year":           1996 
+},
+{
+ "Date":           9770,
+"TotalNumberofRigs":            836,
+"Onshore":            728,
+"Offshore":            108,
+"CrudeOil":            328,
+"NaturalGas":            499,
+"Year":           1996 
+},
+{
+ "Date":           9801,
+"TotalNumberofRigs":            848,
+"Onshore":            741,
+"Offshore":            107,
+"CrudeOil":            363,
+"NaturalGas":            482,
+"Year":           1996 
+},
+{
+ "Date":           9831,
+"TotalNumberofRigs":            852,
+"Onshore":            736,
+"Offshore":            116,
+"CrudeOil":            361,
+"NaturalGas":            489,
+"Year":           1996 
+},
+{
+ "Date":           9862,
+"TotalNumberofRigs":            822,
+"Onshore":            712,
+"Offshore":            110,
+"CrudeOil":            342,
+"NaturalGas":            478,
+"Year":           1997 
+},
+{
+ "Date":           9893,
+"TotalNumberofRigs":            849,
+"Onshore":            742,
+"Offshore":            107,
+"CrudeOil":            356,
+"NaturalGas":            492,
+"Year":           1997 
+},
+{
+ "Date":           9921,
+"TotalNumberofRigs":            897,
+"Onshore":            770,
+"Offshore":            127,
+"CrudeOil":            377,
+"NaturalGas":            518,
+"Year":           1997 
+},
+{
+ "Date":           9952,
+"TotalNumberofRigs":            901,
+"Onshore":            775,
+"Offshore":            126,
+"CrudeOil":            373,
+"NaturalGas":            526,
+"Year":           1997 
+},
+{
+ "Date":           9982,
+"TotalNumberofRigs":            924,
+"Onshore":            804,
+"Offshore":            120,
+"CrudeOil":            379,
+"NaturalGas":            541,
+"Year":           1997 
+},
+{
+ "Date":          10013,
+"TotalNumberofRigs":            976,
+"Onshore":            855,
+"Offshore":            121,
+"CrudeOil":            396,
+"NaturalGas":            577,
+"Year":           1997 
+},
+{
+ "Date":          10043,
+"TotalNumberofRigs":            969,
+"Onshore":            844,
+"Offshore":            125,
+"CrudeOil":            382,
+"NaturalGas":            584,
+"Year":           1997 
+},
+{
+ "Date":          10074,
+"TotalNumberofRigs":            993,
+"Onshore":            868,
+"Offshore":            125,
+"CrudeOil":            409,
+"NaturalGas":            581,
+"Year":           1997 
+},
+{
+ "Date":          10105,
+"TotalNumberofRigs":           1009,
+"Onshore":            881,
+"Offshore":            128,
+"CrudeOil":            392,
+"NaturalGas":            614,
+"Year":           1997 
+},
+{
+ "Date":          10135,
+"TotalNumberofRigs":            996,
+"Onshore":            875,
+"Offshore":            121,
+"CrudeOil":            390,
+"NaturalGas":            602,
+"Year":           1997 
+},
+{
+ "Date":          10166,
+"TotalNumberofRigs":            983,
+"Onshore":            857,
+"Offshore":            126,
+"CrudeOil":            354,
+"NaturalGas":            625,
+"Year":           1997 
+},
+{
+ "Date":          10196,
+"TotalNumberofRigs":           1013,
+"Onshore":            884,
+"Offshore":            129,
+"CrudeOil":            361,
+"NaturalGas":            648,
+"Year":           1997 
+},
+{
+ "Date":          10227,
+"TotalNumberofRigs":            993,
+"Onshore":            860,
+"Offshore":            133,
+"CrudeOil":            380,
+"NaturalGas":            609,
+"Year":           1998 
+},
+{
+ "Date":          10258,
+"TotalNumberofRigs":            974,
+"Onshore":            835,
+"Offshore":            139,
+"CrudeOil":            380,
+"NaturalGas":            589,
+"Year":           1998 
+},
+{
+ "Date":          10286,
+"TotalNumberofRigs":            932,
+"Onshore":            796,
+"Offshore":            136,
+"CrudeOil":            327,
+"NaturalGas":            601,
+"Year":           1998 
+},
+{
+ "Date":          10317,
+"TotalNumberofRigs":            886,
+"Onshore":            748,
+"Offshore":            138,
+"CrudeOil":            291,
+"NaturalGas":            591,
+"Year":           1998 
+},
+{
+ "Date":          10347,
+"TotalNumberofRigs":            855,
+"Onshore":            722,
+"Offshore":            133,
+"CrudeOil":            272,
+"NaturalGas":            580,
+"Year":           1998 
+},
+{
+ "Date":          10378,
+"TotalNumberofRigs":            854,
+"Onshore":            726,
+"Offshore":            128,
+"CrudeOil":            267,
+"NaturalGas":            585,
+"Year":           1998 
+},
+{
+ "Date":          10408,
+"TotalNumberofRigs":            816,
+"Onshore":            695,
+"Offshore":            121,
+"CrudeOil":            264,
+"NaturalGas":            549,
+"Year":           1998 
+},
+{
+ "Date":          10439,
+"TotalNumberofRigs":            792,
+"Onshore":            674,
+"Offshore":            118,
+"CrudeOil":            226,
+"NaturalGas":            565,
+"Year":           1998 
+},
+{
+ "Date":          10470,
+"TotalNumberofRigs":            774,
+"Onshore":            656,
+"Offshore":            118,
+"CrudeOil":            215,
+"NaturalGas":            559,
+"Year":           1998 
+},
+{
+ "Date":          10500,
+"TotalNumberofRigs":            734,
+"Onshore":            623,
+"Offshore":            111,
+"CrudeOil":            214,
+"NaturalGas":            519,
+"Year":           1998 
+},
+{
+ "Date":          10531,
+"TotalNumberofRigs":            688,
+"Onshore":            579,
+"Offshore":            109,
+"CrudeOil":            190,
+"NaturalGas":            499,
+"Year":           1998 
+},
+{
+ "Date":          10561,
+"TotalNumberofRigs":            647,
+"Onshore":            545,
+"Offshore":            102,
+"CrudeOil":            155,
+"NaturalGas":            491,
+"Year":           1998 
+},
+{
+ "Date":          10592,
+"TotalNumberofRigs":            587,
+"Onshore":            483,
+"Offshore":            104,
+"CrudeOil":            125,
+"NaturalGas":            461,
+"Year":           1999 
+},
+{
+ "Date":          10623,
+"TotalNumberofRigs":            542,
+"Onshore":            441,
+"Offshore":            101,
+"CrudeOil":            117,
+"NaturalGas":            425,
+"Year":           1999 
+},
+{
+ "Date":          10651,
+"TotalNumberofRigs":            526,
+"Onshore":            420,
+"Offshore":            106,
+"CrudeOil":            114,
+"NaturalGas":            412,
+"Year":           1999 
+},
+{
+ "Date":          10682,
+"TotalNumberofRigs":            496,
+"Onshore":            397,
+"Offshore":             99,
+"CrudeOil":            125,
+"NaturalGas":            371,
+"Year":           1999 
+},
+{
+ "Date":          10712,
+"TotalNumberofRigs":            516,
+"Onshore":            414,
+"Offshore":            102,
+"CrudeOil":            136,
+"NaturalGas":            380,
+"Year":           1999 
+},
+{
+ "Date":          10743,
+"TotalNumberofRigs":            558,
+"Onshore":            458,
+"Offshore":            100,
+"CrudeOil":            124,
+"NaturalGas":            434,
+"Year":           1999 
+},
+{
+ "Date":          10773,
+"TotalNumberofRigs":            588,
+"Onshore":            489,
+"Offshore":             99,
+"CrudeOil":            108,
+"NaturalGas":            478,
+"Year":           1999 
+},
+{
+ "Date":          10804,
+"TotalNumberofRigs":            639,
+"Onshore":            533,
+"Offshore":            106,
+"CrudeOil":            111,
+"NaturalGas":            527,
+"Year":           1999 
+},
+{
+ "Date":          10835,
+"TotalNumberofRigs":            696,
+"Onshore":            587,
+"Offshore":            109,
+"CrudeOil":            130,
+"NaturalGas":            565,
+"Year":           1999 
+},
+{
+ "Date":          10865,
+"TotalNumberofRigs":            741,
+"Onshore":            630,
+"Offshore":            111,
+"CrudeOil":            137,
+"NaturalGas":            601,
+"Year":           1999 
+},
+{
+ "Date":          10896,
+"TotalNumberofRigs":            782,
+"Onshore":            663,
+"Offshore":            119,
+"CrudeOil":            145,
+"NaturalGas":            635,
+"Year":           1999 
+},
+{
+ "Date":          10926,
+"TotalNumberofRigs":            798,
+"Onshore":            676,
+"Offshore":            122,
+"CrudeOil":            161,
+"NaturalGas":            636,
+"Year":           1999 
+},
+{
+ "Date":          10957,
+"TotalNumberofRigs":            775,
+"Onshore":            650,
+"Offshore":            125,
+"CrudeOil":            143,
+"NaturalGas":            632,
+"Year":           2000 
+},
+{
+ "Date":          10988,
+"TotalNumberofRigs":            763,
+"Onshore":            641,
+"Offshore":            122,
+"CrudeOil":            147,
+"NaturalGas":            616,
+"Year":           2000 
+},
+{
+ "Date":          11017,
+"TotalNumberofRigs":            773,
+"Onshore":            649,
+"Offshore":            124,
+"CrudeOil":            173,
+"NaturalGas":            600,
+"Year":           2000 
+},
+{
+ "Date":          11048,
+"TotalNumberofRigs":            805,
+"Onshore":            680,
+"Offshore":            125,
+"CrudeOil":            196,
+"NaturalGas":            609,
+"Year":           2000 
+},
+{
+ "Date":          11078,
+"TotalNumberofRigs":            844,
+"Onshore":            705,
+"Offshore":            139,
+"CrudeOil":            199,
+"NaturalGas":            645,
+"Year":           2000 
+},
+{
+ "Date":          11109,
+"TotalNumberofRigs":            878,
+"Onshore":            739,
+"Offshore":            139,
+"CrudeOil":            201,
+"NaturalGas":            677,
+"Year":           2000 
+},
+{
+ "Date":          11139,
+"TotalNumberofRigs":            942,
+"Onshore":            784,
+"Offshore":            158,
+"CrudeOil":            208,
+"NaturalGas":            733,
+"Year":           2000 
+},
+{
+ "Date":          11170,
+"TotalNumberofRigs":            987,
+"Onshore":            828,
+"Offshore":            159,
+"CrudeOil":            206,
+"NaturalGas":            779,
+"Year":           2000 
+},
+{
+ "Date":          11201,
+"TotalNumberofRigs":           1011,
+"Onshore":            865,
+"Offshore":            146,
+"CrudeOil":            199,
+"NaturalGas":            810,
+"Year":           2000 
+},
+{
+ "Date":          11231,
+"TotalNumberofRigs":           1055,
+"Onshore":            908,
+"Offshore":            147,
+"CrudeOil":            212,
+"NaturalGas":            842,
+"Year":           2000 
+},
+{
+ "Date":          11262,
+"TotalNumberofRigs":           1067,
+"Onshore":            916,
+"Offshore":            151,
+"CrudeOil":            234,
+"NaturalGas":            832,
+"Year":           2000 
+},
+{
+ "Date":          11292,
+"TotalNumberofRigs":           1097,
+"Onshore":            950,
+"Offshore":            147,
+"CrudeOil":            242,
+"NaturalGas":            854,
+"Year":           2000 
+},
+{
+ "Date":          11323,
+"TotalNumberofRigs":           1118,
+"Onshore":            944,
+"Offshore":            174,
+"CrudeOil":            239,
+"NaturalGas":            879,
+"Year":           2001 
+},
+{
+ "Date":          11354,
+"TotalNumberofRigs":           1136,
+"Onshore":            973,
+"Offshore":            163,
+"CrudeOil":            237,
+"NaturalGas":            898,
+"Year":           2001 
+},
+{
+ "Date":          11382,
+"TotalNumberofRigs":           1163,
+"Onshore":            996,
+"Offshore":            167,
+"CrudeOil":            248,
+"NaturalGas":            913,
+"Year":           2001 
+},
+{
+ "Date":          11413,
+"TotalNumberofRigs":           1206,
+"Onshore":           1037,
+"Offshore":            169,
+"CrudeOil":            247,
+"NaturalGas":            957,
+"Year":           2001 
+},
+{
+ "Date":          11443,
+"TotalNumberofRigs":           1234,
+"Onshore":           1063,
+"Offshore":            171,
+"CrudeOil":            235,
+"NaturalGas":            997,
+"Year":           2001 
+},
+{
+ "Date":          11474,
+"TotalNumberofRigs":           1270,
+"Onshore":           1107,
+"Offshore":            163,
+"CrudeOil":            219,
+"NaturalGas":           1050,
+"Year":           2001 
+},
+{
+ "Date":          11504,
+"TotalNumberofRigs":           1278,
+"Onshore":           1121,
+"Offshore":            157,
+"CrudeOil":            219,
+"NaturalGas":           1058,
+"Year":           2001 
+},
+{
+ "Date":          11535,
+"TotalNumberofRigs":           1252,
+"Onshore":           1105,
+"Offshore":            147,
+"CrudeOil":            219,
+"NaturalGas":           1032,
+"Year":           2001 
+},
+{
+ "Date":          11566,
+"TotalNumberofRigs":           1193,
+"Onshore":           1049,
+"Offshore":            144,
+"CrudeOil":            220,
+"NaturalGas":            972,
+"Year":           2001 
+},
+{
+ "Date":          11596,
+"TotalNumberofRigs":           1111,
+"Onshore":            978,
+"Offshore":            133,
+"CrudeOil":            198,
+"NaturalGas":            913,
+"Year":           2001 
+},
+{
+ "Date":          11627,
+"TotalNumberofRigs":           1000,
+"Onshore":            866,
+"Offshore":            134,
+"CrudeOil":            174,
+"NaturalGas":            825,
+"Year":           2001 
+},
+{
+ "Date":          11657,
+"TotalNumberofRigs":            901,
+"Onshore":            778,
+"Offshore":            123,
+"CrudeOil":            147,
+"NaturalGas":            754,
+"Year":           2001 
+},
+{
+ "Date":          11688,
+"TotalNumberofRigs":            867,
+"Onshore":            741,
+"Offshore":            126,
+"CrudeOil":            141,
+"NaturalGas":            725,
+"Year":           2002 
+},
+{
+ "Date":          11719,
+"TotalNumberofRigs":            825,
+"Onshore":            702,
+"Offshore":            123,
+"CrudeOil":            144,
+"NaturalGas":            679,
+"Year":           2002 
+},
+{
+ "Date":          11747,
+"TotalNumberofRigs":            763,
+"Onshore":            649,
+"Offshore":            114,
+"CrudeOil":            144,
+"NaturalGas":            617,
+"Year":           2002 
+},
+{
+ "Date":          11778,
+"TotalNumberofRigs":            750,
+"Onshore":            645,
+"Offshore":            105,
+"CrudeOil":            136,
+"NaturalGas":            612,
+"Year":           2002 
+},
+{
+ "Date":          11808,
+"TotalNumberofRigs":            826,
+"Onshore":            721,
+"Offshore":            105,
+"CrudeOil":            134,
+"NaturalGas":            690,
+"Year":           2002 
+},
+{
+ "Date":          11839,
+"TotalNumberofRigs":            842,
+"Onshore":            732,
+"Offshore":            110,
+"CrudeOil":            138,
+"NaturalGas":            704,
+"Year":           2002 
+},
+{
+ "Date":          11869,
+"TotalNumberofRigs":            851,
+"Onshore":            740,
+"Offshore":            111,
+"CrudeOil":            133,
+"NaturalGas":            716,
+"Year":           2002 
+},
+{
+ "Date":          11900,
+"TotalNumberofRigs":            848,
+"Onshore":            737,
+"Offshore":            111,
+"CrudeOil":            125,
+"NaturalGas":            721,
+"Year":           2002 
+},
+{
+ "Date":          11931,
+"TotalNumberofRigs":            860,
+"Onshore":            746,
+"Offshore":            114,
+"CrudeOil":            122,
+"NaturalGas":            736,
+"Year":           2002 
+},
+{
+ "Date":          11961,
+"TotalNumberofRigs":            851,
+"Onshore":            740,
+"Offshore":            111,
+"CrudeOil":            140,
+"NaturalGas":            709,
+"Year":           2002 
+},
+{
+ "Date":          11992,
+"TotalNumberofRigs":            834,
+"Onshore":            725,
+"Offshore":            109,
+"CrudeOil":            146,
+"NaturalGas":            683,
+"Year":           2002 
+},
+{
+ "Date":          12022,
+"TotalNumberofRigs":            856,
+"Onshore":            742,
+"Offshore":            114,
+"CrudeOil":            137,
+"NaturalGas":            714,
+"Year":           2002 
+},
+{
+ "Date":          12053,
+"TotalNumberofRigs":            854,
+"Onshore":            743,
+"Offshore":            111,
+"CrudeOil":            132,
+"NaturalGas":            718,
+"Year":           2003 
+},
+{
+ "Date":          12084,
+"TotalNumberofRigs":            907,
+"Onshore":            797,
+"Offshore":            110,
+"CrudeOil":            153,
+"NaturalGas":            750,
+"Year":           2003 
+},
+{
+ "Date":          12112,
+"TotalNumberofRigs":            941,
+"Onshore":            836,
+"Offshore":            105,
+"CrudeOil":            171,
+"NaturalGas":            767,
+"Year":           2003 
+},
+{
+ "Date":          12143,
+"TotalNumberofRigs":            983,
+"Onshore":            877,
+"Offshore":            106,
+"CrudeOil":            185,
+"NaturalGas":            795,
+"Year":           2003 
+},
+{
+ "Date":          12173,
+"TotalNumberofRigs":           1034,
+"Onshore":            921,
+"Offshore":            113,
+"CrudeOil":            167,
+"NaturalGas":            864,
+"Year":           2003 
+},
+{
+ "Date":          12204,
+"TotalNumberofRigs":           1067,
+"Onshore":            958,
+"Offshore":            109,
+"CrudeOil":            152,
+"NaturalGas":            910,
+"Year":           2003 
+},
+{
+ "Date":          12234,
+"TotalNumberofRigs":           1081,
+"Onshore":            974,
+"Offshore":            107,
+"CrudeOil":            153,
+"NaturalGas":            924,
+"Year":           2003 
+},
+{
+ "Date":          12265,
+"TotalNumberofRigs":           1090,
+"Onshore":            979,
+"Offshore":            111,
+"CrudeOil":            153,
+"NaturalGas":            932,
+"Year":           2003 
+},
+{
+ "Date":          12296,
+"TotalNumberofRigs":           1093,
+"Onshore":            984,
+"Offshore":            109,
+"CrudeOil":            154,
+"NaturalGas":            936,
+"Year":           2003 
+},
+{
+ "Date":          12326,
+"TotalNumberofRigs":           1102,
+"Onshore":            997,
+"Offshore":            105,
+"CrudeOil":            158,
+"NaturalGas":            941,
+"Year":           2003 
+},
+{
+ "Date":          12357,
+"TotalNumberofRigs":           1111,
+"Onshore":           1005,
+"Offshore":            106,
+"CrudeOil":            158,
+"NaturalGas":            952,
+"Year":           2003 
+},
+{
+ "Date":          12387,
+"TotalNumberofRigs":           1114,
+"Onshore":           1010,
+"Offshore":            104,
+"CrudeOil":            153,
+"NaturalGas":            959,
+"Year":           2003 
+},
+{
+ "Date":          12418,
+"TotalNumberofRigs":           1101,
+"Onshore":           1001,
+"Offshore":            100,
+"CrudeOil":            143,
+"NaturalGas":            955,
+"Year":           2004 
+},
+{
+ "Date":          12449,
+"TotalNumberofRigs":           1119,
+"Onshore":           1020,
+"Offshore":             99,
+"CrudeOil":            153,
+"NaturalGas":            961,
+"Year":           2004 
+},
+{
+ "Date":          12478,
+"TotalNumberofRigs":           1135,
+"Onshore":           1041,
+"Offshore":             94,
+"CrudeOil":            164,
+"NaturalGas":            968,
+"Year":           2004 
+},
+{
+ "Date":          12509,
+"TotalNumberofRigs":           1151,
+"Onshore":           1058,
+"Offshore":             93,
+"CrudeOil":            154,
+"NaturalGas":            996,
+"Year":           2004 
+},
+{
+ "Date":          12539,
+"TotalNumberofRigs":           1164,
+"Onshore":           1068,
+"Offshore":             96,
+"CrudeOil":            156,
+"NaturalGas":           1007,
+"Year":           2004 
+},
+{
+ "Date":          12570,
+"TotalNumberofRigs":           1176,
+"Onshore":           1080,
+"Offshore":             96,
+"CrudeOil":            164,
+"NaturalGas":           1011,
+"Year":           2004 
+},
+{
+ "Date":          12600,
+"TotalNumberofRigs":           1213,
+"Onshore":           1116,
+"Offshore":             97,
+"CrudeOil":            170,
+"NaturalGas":           1041,
+"Year":           2004 
+},
+{
+ "Date":          12631,
+"TotalNumberofRigs":           1234,
+"Onshore":           1139,
+"Offshore":             95,
+"CrudeOil":            170,
+"NaturalGas":           1063,
+"Year":           2004 
+},
+{
+ "Date":          12662,
+"TotalNumberofRigs":           1240,
+"Onshore":           1148,
+"Offshore":             92,
+"CrudeOil":            166,
+"NaturalGas":           1073,
+"Year":           2004 
+},
+{
+ "Date":          12692,
+"TotalNumberofRigs":           1240,
+"Onshore":           1145,
+"Offshore":             95,
+"CrudeOil":            171,
+"NaturalGas":           1068,
+"Year":           2004 
+},
+{
+ "Date":          12723,
+"TotalNumberofRigs":           1262,
+"Onshore":           1160,
+"Offshore":            102,
+"CrudeOil":            183,
+"NaturalGas":           1077,
+"Year":           2004 
+},
+{
+ "Date":          12753,
+"TotalNumberofRigs":           1246,
+"Onshore":           1140,
+"Offshore":            106,
+"CrudeOil":            180,
+"NaturalGas":           1064,
+"Year":           2004 
+},
+{
+ "Date":          12784,
+"TotalNumberofRigs":           1255,
+"Onshore":           1153,
+"Offshore":            102,
+"CrudeOil":            178,
+"NaturalGas":           1075,
+"Year":           2005 
+},
+{
+ "Date":          12815,
+"TotalNumberofRigs":           1276,
+"Onshore":           1170,
+"Offshore":            106,
+"CrudeOil":            192,
+"NaturalGas":           1083,
+"Year":           2005 
+},
+{
+ "Date":          12843,
+"TotalNumberofRigs":           1306,
+"Onshore":           1209,
+"Offshore":             97,
+"CrudeOil":            186,
+"NaturalGas":           1118,
+"Year":           2005 
+},
+{
+ "Date":          12874,
+"TotalNumberofRigs":           1334,
+"Onshore":           1241,
+"Offshore":             93,
+"CrudeOil":            171,
+"NaturalGas":           1163,
+"Year":           2005 
+},
+{
+ "Date":          12904,
+"TotalNumberofRigs":           1320,
+"Onshore":           1229,
+"Offshore":             91,
+"CrudeOil":            150,
+"NaturalGas":           1170,
+"Year":           2005 
+},
+{
+ "Date":          12935,
+"TotalNumberofRigs":           1355,
+"Onshore":           1259,
+"Offshore":             96,
+"CrudeOil":            146,
+"NaturalGas":           1208,
+"Year":           2005 
+},
+{
+ "Date":          12965,
+"TotalNumberofRigs":           1398,
+"Onshore":           1297,
+"Offshore":            101,
+"CrudeOil":            170,
+"NaturalGas":           1226,
+"Year":           2005 
+},
+{
+ "Date":          12996,
+"TotalNumberofRigs":           1436,
+"Onshore":           1333,
+"Offshore":            102,
+"CrudeOil":            206,
+"NaturalGas":           1227,
+"Year":           2005 
+},
+{
+ "Date":          13027,
+"TotalNumberofRigs":           1452,
+"Onshore":           1360,
+"Offshore":             91,
+"CrudeOil":            210,
+"NaturalGas":           1236,
+"Year":           2005 
+},
+{
+ "Date":          13057,
+"TotalNumberofRigs":           1479,
+"Onshore":           1392,
+"Offshore":             87,
+"CrudeOil":            217,
+"NaturalGas":           1256,
+"Year":           2005 
+},
+{
+ "Date":          13088,
+"TotalNumberofRigs":           1486,
+"Onshore":           1402,
+"Offshore":             84,
+"CrudeOil":            253,
+"NaturalGas":           1228,
+"Year":           2005 
+},
+{
+ "Date":          13118,
+"TotalNumberofRigs":           1470,
+"Onshore":           1393,
+"Offshore":             77,
+"CrudeOil":            247,
+"NaturalGas":           1220,
+"Year":           2005 
+},
+{
+ "Date":          13149,
+"TotalNumberofRigs":           1473,
+"Onshore":           1396,
+"Offshore":             77,
+"CrudeOil":            242,
+"NaturalGas":           1228,
+"Year":           2006 
+},
+{
+ "Date":          13180,
+"TotalNumberofRigs":           1533,
+"Onshore":           1455,
+"Offshore":             79,
+"CrudeOil":            209,
+"NaturalGas":           1321,
+"Year":           2006 
+},
+{
+ "Date":          13208,
+"TotalNumberofRigs":           1551,
+"Onshore":           1464,
+"Offshore":             88,
+"CrudeOil":            244,
+"NaturalGas":           1305,
+"Year":           2006 
+},
+{
+ "Date":          13239,
+"TotalNumberofRigs":           1597,
+"Onshore":           1502,
+"Offshore":             95,
+"CrudeOil":            259,
+"NaturalGas":           1337,
+"Year":           2006 
+},
+{
+ "Date":          13269,
+"TotalNumberofRigs":           1635,
+"Onshore":           1536,
+"Offshore":            100,
+"CrudeOil":            261,
+"NaturalGas":           1373,
+"Year":           2006 
+},
+{
+ "Date":          13300,
+"TotalNumberofRigs":           1665,
+"Onshore":           1570,
+"Offshore":             95,
+"CrudeOil":            285,
+"NaturalGas":           1376,
+"Year":           2006 
+},
+{
+ "Date":          13330,
+"TotalNumberofRigs":           1681,
+"Onshore":           1587,
+"Offshore":             94,
+"CrudeOil":            298,
+"NaturalGas":           1379,
+"Year":           2006 
+},
+{
+ "Date":          13361,
+"TotalNumberofRigs":           1738,
+"Onshore":           1639,
+"Offshore":             99,
+"CrudeOil":            316,
+"NaturalGas":           1417,
+"Year":           2006 
+},
+{
+ "Date":          13392,
+"TotalNumberofRigs":           1739,
+"Onshore":           1646,
+"Offshore":             93,
+"CrudeOil":            305,
+"NaturalGas":           1429,
+"Year":           2006 
+},
+{
+ "Date":          13422,
+"TotalNumberofRigs":           1734,
+"Onshore":           1644,
+"Offshore":             90,
+"CrudeOil":            288,
+"NaturalGas":           1441,
+"Year":           2006 
+},
+{
+ "Date":          13453,
+"TotalNumberofRigs":           1706,
+"Onshore":           1620,
+"Offshore":             87,
+"CrudeOil":            288,
+"NaturalGas":           1414,
+"Year":           2006 
+},
+{
+ "Date":          13483,
+"TotalNumberofRigs":           1718,
+"Onshore":           1634,
+"Offshore":             84,
+"CrudeOil":            281,
+"NaturalGas":           1431,
+"Year":           2006 
+},
+{
+ "Date":          13514,
+"TotalNumberofRigs":           1714,
+"Onshore":           1630,
+"Offshore":             84,
+"CrudeOil":            270,
+"NaturalGas":           1440,
+"Year":           2007 
+},
+{
+ "Date":          13545,
+"TotalNumberofRigs":           1736,
+"Onshore":           1651,
+"Offshore":             85,
+"CrudeOil":            266,
+"NaturalGas":           1466,
+"Year":           2007 
+},
+{
+ "Date":          13573,
+"TotalNumberofRigs":           1749,
+"Onshore":           1667,
+"Offshore":             81,
+"CrudeOil":            282,
+"NaturalGas":           1461,
+"Year":           2007 
+},
+{
+ "Date":          13604,
+"TotalNumberofRigs":           1750,
+"Onshore":           1675,
+"Offshore":             75,
+"CrudeOil":            285,
+"NaturalGas":           1461,
+"Year":           2007 
+},
+{
+ "Date":          13634,
+"TotalNumberofRigs":           1748,
+"Onshore":           1671,
+"Offshore":             77,
+"CrudeOil":            282,
+"NaturalGas":           1464,
+"Year":           2007 
+},
+{
+ "Date":          13665,
+"TotalNumberofRigs":           1771,
+"Onshore":           1692,
+"Offshore":             79,
+"CrudeOil":            283,
+"NaturalGas":           1483,
+"Year":           2007 
+},
+{
+ "Date":          13695,
+"TotalNumberofRigs":           1777,
+"Onshore":           1698,
+"Offshore":             79,
+"CrudeOil":            285,
+"NaturalGas":           1486,
+"Year":           2007 
+},
+{
+ "Date":          13726,
+"TotalNumberofRigs":           1804,
+"Onshore":           1731,
+"Offshore":             73,
+"CrudeOil":            306,
+"NaturalGas":           1492,
+"Year":           2007 
+},
+{
+ "Date":          13757,
+"TotalNumberofRigs":           1783,
+"Onshore":           1718,
+"Offshore":             65,
+"CrudeOil":            302,
+"NaturalGas":           1475,
+"Year":           2007 
+},
+{
+ "Date":          13787,
+"TotalNumberofRigs":           1762,
+"Onshore":           1713,
+"Offshore":             49,
+"CrudeOil":            321,
+"NaturalGas":           1435,
+"Year":           2007 
+},
+{
+ "Date":          13818,
+"TotalNumberofRigs":           1798,
+"Onshore":           1737,
+"Offshore":             61,
+"CrudeOil":            341,
+"NaturalGas":           1451,
+"Year":           2007 
+},
+{
+ "Date":          13848,
+"TotalNumberofRigs":           1811,
+"Onshore":           1749,
+"Offshore":             62,
+"CrudeOil":            338,
+"NaturalGas":           1468,
+"Year":           2007 
+},
+{
+ "Date":          13879,
+"TotalNumberofRigs":           1749,
+"Onshore":           1690,
+"Offshore":             60,
+"CrudeOil":            321,
+"NaturalGas":           1421,
+"Year":           2008 
+},
+{
+ "Date":          13910,
+"TotalNumberofRigs":           1765,
+"Onshore":           1709,
+"Offshore":             56,
+"CrudeOil":            331,
+"NaturalGas":           1426,
+"Year":           2008 
+},
+{
+ "Date":          13939,
+"TotalNumberofRigs":           1797,
+"Onshore":           1737,
+"Offshore":             60,
+"CrudeOil":            343,
+"NaturalGas":           1444,
+"Year":           2008 
+},
+{
+ "Date":          13970,
+"TotalNumberofRigs":           1829,
+"Onshore":           1765,
+"Offshore":             64,
+"CrudeOil":            358,
+"NaturalGas":           1461,
+"Year":           2008 
+},
+{
+ "Date":          14000,
+"TotalNumberofRigs":           1863,
+"Onshore":           1794,
+"Offshore":             68,
+"CrudeOil":            375,
+"NaturalGas":           1478,
+"Year":           2008 
+},
+{
+ "Date":          14031,
+"TotalNumberofRigs":           1902,
+"Onshore":           1834,
+"Offshore":             67,
+"CrudeOil":            383,
+"NaturalGas":           1510,
+"Year":           2008 
+},
+{
+ "Date":          14061,
+"TotalNumberofRigs":           1932,
+"Onshore":           1865,
+"Offshore":             67,
+"CrudeOil":            380,
+"NaturalGas":           1543,
+"Year":           2008 
+},
+{
+ "Date":          14092,
+"TotalNumberofRigs":           1987,
+"Onshore":           1920,
+"Offshore":             67,
+"CrudeOil":            397,
+"NaturalGas":           1581,
+"Year":           2008 
+},
+{
+ "Date":          14123,
+"TotalNumberofRigs":           2014,
+"Onshore":           1942,
+"Offshore":             72,
+"CrudeOil":            417,
+"NaturalGas":           1585,
+"Year":           2008 
+},
+{
+ "Date":          14153,
+"TotalNumberofRigs":           1976,
+"Onshore":           1903,
+"Offshore":             73,
+"CrudeOil":            422,
+"NaturalGas":           1542,
+"Year":           2008 
+},
+{
+ "Date":          14184,
+"TotalNumberofRigs":           1935,
+"Onshore":           1872,
+"Offshore":             63,
+"CrudeOil":            426,
+"NaturalGas":           1498,
+"Year":           2008 
+},
+{
+ "Date":          14214,
+"TotalNumberofRigs":           1782,
+"Onshore":           1716,
+"Offshore":             66,
+"CrudeOil":            391,
+"NaturalGas":           1380,
+"Year":           2008 
+},
+{
+ "Date":          14245,
+"TotalNumberofRigs":           1553,
+"Onshore":           1487,
+"Offshore":             66,
+"CrudeOil":            328,
+"NaturalGas":           1215,
+"Year":           2009 
+},
+{
+ "Date":          14276,
+"TotalNumberofRigs":           1320,
+"Onshore":           1263,
+"Offshore":             57,
+"CrudeOil":            271,
+"NaturalGas":           1037,
+"Year":           2009 
+},
+{
+ "Date":          14304,
+"TotalNumberofRigs":           1105,
+"Onshore":           1059,
+"Offshore":             46,
+"CrudeOil":            225,
+"NaturalGas":            867,
+"Year":           2009 
+},
+{
+ "Date":          14335,
+"TotalNumberofRigs":            995,
+"Onshore":            947,
+"Offshore":             48,
+"CrudeOil":            209,
+"NaturalGas":            775,
+"Year":           2009 
+},
+{
+ "Date":          14365,
+"TotalNumberofRigs":            918,
+"Onshore":            864,
+"Offshore":             54,
+"CrudeOil":            187,
+"NaturalGas":            723,
+"Year":           2009 
+},
+{
+ "Date":          14396,
+"TotalNumberofRigs":            895,
+"Onshore":            848,
+"Offshore":             47,
+"CrudeOil":            194,
+"NaturalGas":            691,
+"Year":           2009 
+},
+{
+ "Date":          14426,
+"TotalNumberofRigs":            931,
+"Onshore":            893,
+"Offshore":             38,
+"CrudeOil":            245,
+"NaturalGas":            675,
+"Year":           2009 
+},
+{
+ "Date":          14457,
+"TotalNumberofRigs":            980,
+"Onshore":            949,
+"Offshore":             31,
+"CrudeOil":            279,
+"NaturalGas":            691,
+"Year":           2009 
+},
+{
+ "Date":          14488,
+"TotalNumberofRigs":           1009,
+"Onshore":            976,
+"Offshore":             33,
+"CrudeOil":            293,
+"NaturalGas":            704,
+"Year":           2009 
+},
+{
+ "Date":          14518,
+"TotalNumberofRigs":           1044,
+"Onshore":           1011,
+"Offshore":             33,
+"CrudeOil":            312,
+"NaturalGas":            722,
+"Year":           2009 
+},
+{
+ "Date":          14549,
+"TotalNumberofRigs":           1107,
+"Onshore":           1071,
+"Offshore":             36,
+"CrudeOil":            362,
+"NaturalGas":            734,
+"Year":           2009 
+},
+{
+ "Date":          14579,
+"TotalNumberofRigs":           1172,
+"Onshore":           1136,
+"Offshore":             37,
+"CrudeOil":            404,
+"NaturalGas":            758,
+"Year":           2009 
+},
+{
+ "Date":          14610,
+"TotalNumberofRigs":           1267,
+"Onshore":           1225,
+"Offshore":             42,
+"CrudeOil":            433,
+"NaturalGas":            822,
+"Year":           2010 
+},
+{
+ "Date":          14641,
+"TotalNumberofRigs":           1350,
+"Onshore":           1305,
+"Offshore":             45,
+"CrudeOil":            446,
+"NaturalGas":            892,
+"Year":           2010 
+},
+{
+ "Date":          14669,
+"TotalNumberofRigs":           1419,
+"Onshore":           1369,
+"Offshore":             50,
+"CrudeOil":            471,
+"NaturalGas":            933,
+"Year":           2010 
+},
+{
+ "Date":          14700,
+"TotalNumberofRigs":           1479,
+"Onshore":           1426,
+"Offshore":             53,
+"CrudeOil":            508,
+"NaturalGas":            959,
+"Year":           2010 
+},
+{
+ "Date":          14730,
+"TotalNumberofRigs":           1513,
+"Onshore":           1464,
+"Offshore":             49,
+"CrudeOil":            541,
+"NaturalGas":            960,
+"Year":           2010 
+},
+{
+ "Date":          14761,
+"TotalNumberofRigs":           1531,
+"Onshore":           1511,
+"Offshore":             20,
+"CrudeOil":            566,
+"NaturalGas":            953,
+"Year":           2010 
+},
+{
+ "Date":          14791,
+"TotalNumberofRigs":           1573,
+"Onshore":           1558,
+"Offshore":             15,
+"CrudeOil":            591,
+"NaturalGas":            971,
+"Year":           2010 
+},
+{
+ "Date":          14822,
+"TotalNumberofRigs":           1638,
+"Onshore":           1619,
+"Offshore":             20,
+"CrudeOil":            644,
+"NaturalGas":            983,
+"Year":           2010 
+},
+{
+ "Date":          14853,
+"TotalNumberofRigs":           1655,
+"Onshore":           1635,
+"Offshore":             19,
+"CrudeOil":            668,
+"NaturalGas":            977,
+"Year":           2010 
+},
+{
+ "Date":          14883,
+"TotalNumberofRigs":           1668,
+"Onshore":           1647,
+"Offshore":             21,
+"CrudeOil":            693,
+"NaturalGas":            966,
+"Year":           2010 
+},
+{
+ "Date":          14914,
+"TotalNumberofRigs":           1683,
+"Onshore":           1661,
+"Offshore":             22,
+"CrudeOil":            723,
+"NaturalGas":            950,
+"Year":           2010 
+},
+{
+ "Date":          14944,
+"TotalNumberofRigs":           1711,
+"Onshore":           1687,
+"Offshore":             24,
+"CrudeOil":            759,
+"NaturalGas":            940,
+"Year":           2010 
+},
+{
+ "Date":          14975,
+"TotalNumberofRigs":           1711,
+"Onshore":           1686,
+"Offshore":             26,
+"CrudeOil":            793,
+"NaturalGas":            909,
+"Year":           2011 
+},
+{
+ "Date":          15006,
+"TotalNumberofRigs":           1718,
+"Onshore":           1692,
+"Offshore":             26,
+"CrudeOil":            801,
+"NaturalGas":            907,
+"Year":           2011 
+},
+{
+ "Date":          15034,
+"TotalNumberofRigs":           1720,
+"Onshore":           1694,
+"Offshore":             26,
+"CrudeOil":            830,
+"NaturalGas":            884,
+"Year":           2011 
+},
+{
+ "Date":          15065,
+"TotalNumberofRigs":           1790,
+"Onshore":           1762,
+"Offshore":             28,
+"CrudeOil":            896,
+"NaturalGas":            885,
+"Year":           2011 
+},
+{
+ "Date":          15095,
+"TotalNumberofRigs":           1836,
+"Onshore":           1804,
+"Offshore":             32,
+"CrudeOil":            948,
+"NaturalGas":            878,
+"Year":           2011 
+},
+{
+ "Date":          15126,
+"TotalNumberofRigs":           1863,
+"Onshore":           1829,
+"Offshore":             34,
+"CrudeOil":            979,
+"NaturalGas":            877,
+"Year":           2011 
+},
+{
+ "Date":          15156,
+"TotalNumberofRigs":           1900,
+"Onshore":           1865,
+"Offshore":             35,
+"CrudeOil":           1014,
+"NaturalGas":            880,
+"Year":           2011 
+},
+{
+ "Date":          15187,
+"TotalNumberofRigs":           1957,
+"Onshore":           1923,
+"Offshore":             35,
+"CrudeOil":           1055,
+"NaturalGas":            894,
+"Year":           2011 
+},
+{
+ "Date":          15218,
+"TotalNumberofRigs":           1978,
+"Onshore":           1946,
+"Offshore":             32,
+"CrudeOil":           1063,
+"NaturalGas":            907,
+"Year":           2011 
+},
+{
+ "Date":          15248,
+"TotalNumberofRigs":           2017,
+"Onshore":           1982,
+"Offshore":             35,
+"CrudeOil":           1077,
+"NaturalGas":            933,
+"Year":           2011 
+},
+{
+ "Date":          15279,
+"TotalNumberofRigs":           2011,
+"Onshore":           1974,
+"Offshore":             37,
+"CrudeOil":           1125,
+"NaturalGas":            880,
+"Year":           2011 
+},
+{
+ "Date":          15309,
+"TotalNumberofRigs":           2003,
+"Onshore":           1961,
+"Offshore":             42,
+"CrudeOil":           1177,
+"NaturalGas":            821,
+"Year":           2011 
+},
+{
+ "Date":          15340,
+"TotalNumberofRigs":           2003,
+"Onshore":           1960,
+"Offshore":             43,
+"CrudeOil":           1208,
+"NaturalGas":            790,
+"Year":           2012 
+},
+{
+ "Date":          15371,
+"TotalNumberofRigs":           1990,
+"Onshore":           1949,
+"Offshore":             42,
+"CrudeOil":           1261,
+"NaturalGas":            723,
+"Year":           2012 
+},
+{
+ "Date":          15400,
+"TotalNumberofRigs":           1979,
+"Onshore":           1935,
+"Offshore":             43,
+"CrudeOil":           1307,
+"NaturalGas":            667,
+"Year":           2012 
+},
+{
+ "Date":          15431,
+"TotalNumberofRigs":           1961,
+"Onshore":           1917,
+"Offshore":             44,
+"CrudeOil":           1329,
+"NaturalGas":            629,
+"Year":           2012 
+},
+{
+ "Date":          15461,
+"TotalNumberofRigs":           1977,
+"Onshore":           1931,
+"Offshore":             46,
+"CrudeOil":           1373,
+"NaturalGas":            600,
+"Year":           2012 
+},
+{
+ "Date":          15492,
+"TotalNumberofRigs":           1972,
+"Onshore":           1923,
+"Offshore":             49,
+"CrudeOil":           1409,
+"NaturalGas":            558,
+"Year":           2012 
+},
+{
+ "Date":          15522,
+"TotalNumberofRigs":           1944,
+"Onshore":           1894,
+"Offshore":             51,
+"CrudeOil":           1419,
+"NaturalGas":            522,
+"Year":           2012 
+},
+{
+ "Date":          15553,
+"TotalNumberofRigs":           1913,
+"Onshore":           1863,
+"Offshore":             50,
+"CrudeOil":           1423,
+"NaturalGas":            487,
+"Year":           2012 
+},
+{
+ "Date":          15584,
+"TotalNumberofRigs":           1859,
+"Onshore":           1808,
+"Offshore":             51,
+"CrudeOil":           1409,
+"NaturalGas":            447,
+"Year":           2012 
+},
+{
+ "Date":          15614,
+"TotalNumberofRigs":           1834,
+"Onshore":           1785,
+"Offshore":             49,
+"CrudeOil":           1407,
+"NaturalGas":            425,
+"Year":           2012 
+},
+{
+ "Date":          15645,
+"TotalNumberofRigs":           1809,
+"Onshore":           1758,
+"Offshore":             51,
+"CrudeOil":           1385,
+"NaturalGas":            421,
+"Year":           2012 
+},
+{
+ "Date":          15675,
+"TotalNumberofRigs":           1784,
+"Onshore":           1733,
+"Offshore":             51,
+"CrudeOil":           1358,
+"NaturalGas":            423,
+"Year":           2012 
+},
+{
+ "Date":          15706,
+"TotalNumberofRigs":           1756,
+"Onshore":           1704,
+"Offshore":             52,
+"CrudeOil":           1318,
+"NaturalGas":            434,
+"Year":           2013 
+},
+{
+ "Date":          15737,
+"TotalNumberofRigs":           1762,
+"Onshore":           1708,
+"Offshore":             54,
+"CrudeOil":           1332,
+"NaturalGas":            426,
+"Year":           2013 
+},
+{
+ "Date":          15765,
+"TotalNumberofRigs":           1756,
+"Onshore":           1705,
+"Offshore":             51,
+"CrudeOil":           1339,
+"NaturalGas":            413,
+"Year":           2013 
+},
+{
+ "Date":          15796,
+"TotalNumberofRigs":           1755,
+"Onshore":           1707,
+"Offshore":             49,
+"CrudeOil":           1374,
+"NaturalGas":            374,
+"Year":           2013 
+},
+{
+ "Date":          15826,
+"TotalNumberofRigs":           1767,
+"Onshore":           1715,
+"Offshore":             52,
+"CrudeOil":           1407,
+"NaturalGas":            353,
+"Year":           2013 
+},
+{
+ "Date":          15857,
+"TotalNumberofRigs":           1761,
+"Onshore":           1706,
+"Offshore":             55,
+"CrudeOil":           1404,
+"NaturalGas":            352,
+"Year":           2013 
+},
+{
+ "Date":          15887,
+"TotalNumberofRigs":           1766,
+"Onshore":           1708,
+"Offshore":             58,
+"CrudeOil":           1396,
+"NaturalGas":            364,
+"Year":           2013 
+},
+{
+ "Date":          15918,
+"TotalNumberofRigs":           1781,
+"Onshore":           1720,
+"Offshore":             61,
+"CrudeOil":           1388,
+"NaturalGas":            386,
+"Year":           2013 
+},
+{
+ "Date":          15949,
+"TotalNumberofRigs":           1760,
+"Onshore":           1695,
+"Offshore":             65,
+"CrudeOil":           1364,
+"NaturalGas":            389,
+"Year":           2013 
+},
+{
+ "Date":          15979,
+"TotalNumberofRigs":           1744,
+"Onshore":           1683,
+"Offshore":             61,
+"CrudeOil":           1364,
+"NaturalGas":            374,
+"Year":           2013 
+},
+{
+ "Date":          16010,
+"TotalNumberofRigs":           1756,
+"Onshore":           1698,
+"Offshore":             58,
+"CrudeOil":           1384,
+"NaturalGas":            366,
+"Year":           2013 
+},
+{
+ "Date":          16040,
+"TotalNumberofRigs":           1771,
+"Onshore":           1710,
+"Offshore":             61,
+"CrudeOil":           1396,
+"NaturalGas":            373,
+"Year":           2013 
+},
+{
+ "Date":          16071,
+"TotalNumberofRigs":           1769,
+"Onshore":           1711,
+"Offshore":             58,
+"CrudeOil":           1403,
+"NaturalGas":            362,
+"Year":           2014 
+},
+{
+ "Date":          16102,
+"TotalNumberofRigs":           1769,
+"Onshore":           1714,
+"Offshore":             55,
+"CrudeOil":           1424,
+"NaturalGas":            341,
+"Year":           2014 
+},
+{
+ "Date":          16130,
+"TotalNumberofRigs":           1803,
+"Onshore":           1750,
+"Offshore":             54,
+"CrudeOil":           1466,
+"NaturalGas":            333,
+"Year":           2014 
+},
+{
+ "Date":          16161,
+"TotalNumberofRigs":           1835,
+"Onshore":           1784,
+"Offshore":             52,
+"CrudeOil":           1515,
+"NaturalGas":            316,
+"Year":           2014 
+},
+{
+ "Date":          16191,
+"TotalNumberofRigs":           1859,
+"Onshore":           1801,
+"Offshore":             58,
+"CrudeOil":           1530,
+"NaturalGas":            325,
+"Year":           2014 
+},
+{
+ "Date":          16222,
+"TotalNumberofRigs":           1861,
+"Onshore":           1804,
+"Offshore":             58,
+"CrudeOil":           1545,
+"NaturalGas":            314,
+"Year":           2014 
+},
+{
+ "Date":          16252,
+"TotalNumberofRigs":           1876,
+"Onshore":           1819,
+"Offshore":             57,
+"CrudeOil":           1560,
+"NaturalGas":            314,
+"Year":           2014 
+},
+{
+ "Date":          16283,
+"TotalNumberofRigs":           1904,
+"Onshore":           1842,
+"Offshore":             62,
+"CrudeOil":           1578,
+"NaturalGas":            324,
+"Year":           2014 
+},
+{
+ "Date":          16314,
+"TotalNumberofRigs":           1930,
+"Onshore":           1866,
+"Offshore":             64,
+"CrudeOil":           1592,
+"NaturalGas":            336,
+"Year":           2014 
+},
+{
+ "Date":          16344,
+"TotalNumberofRigs":           1924,
+"Onshore":           1867,
+"Offshore":             58,
+"CrudeOil":           1596,
+"NaturalGas":            328,
+"Year":           2014 
+},
+{
+ "Date":          16375,
+"TotalNumberofRigs":           1925,
+"Onshore":           1872,
+"Offshore":             53,
+"CrudeOil":           1573,
+"NaturalGas":            351,
+"Year":           2014 
+},
+{
+ "Date":          16405,
+"TotalNumberofRigs":           1882,
+"Onshore":           1824,
+"Offshore":             59,
+"CrudeOil":           1539,
+"NaturalGas":            342,
+"Year":           2014 
+},
+{
+ "Date":          16436,
+"TotalNumberofRigs":           1683,
+"Onshore":           1629,
+"Offshore":             53,
+"CrudeOil":           1362,
+"NaturalGas":            320,
+"Year":           2015 
+},
+{
+ "Date":          16467,
+"TotalNumberofRigs":           1348,
+"Onshore":           1296,
+"Offshore":             52,
+"CrudeOil":           1050,
+"NaturalGas":            296,
+"Year":           2015 
+},
+{
+ "Date":          16495,
+"TotalNumberofRigs":           1109,
+"Onshore":           1066,
+"Offshore":             43,
+"CrudeOil":            857,
+"NaturalGas":            250,
+"Year":           2015 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .color([ "purple", "blue", "green" ])
+          
+        chart.xAxis
+  .axisLabel("Date")
+  .width(   100)
+  .tickFormat( function(d) {return d3.time.format('%Y/%m')(new Date(d*1000*3600*24));} )
+
+        
+        
+        chart.yAxis
+  .axisLabel("Total Rig Count")
+  .width(   100)
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
